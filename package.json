@@ -4,5 +4,9 @@
   "main": "index.js",
   "author": "Richard Lee",
   "license": "MIT",
-  "private": false
+  "type": "module",
+  "private": false,
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }

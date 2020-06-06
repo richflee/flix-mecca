@@ -1,9 +1,14 @@
 import express from "express";
+import getMovies from "./src/api/movies.js";
 
 const app = express();
 
 app.get("/", function (req, res) {
   res.send("GETTING /");
+});
+
+app.get("/movies", function (req, res) {
+  res.send(getMovies(req));
 });
 
 app.listen(3000, function () {
