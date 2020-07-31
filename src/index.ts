@@ -1,10 +1,10 @@
 import express from "express";
-import getMovies from "./src/api/movies.js";
+import getMovies from "./api/movies";
 
 const app = express();
 
 app.get("/", function (req, res) {
-  res.send("GETTING /");
+  res.send("🎉 Hello world! Welcome to my wonderful movies service 🎉");
 });
 
 app.get("/movies", function (req, res) {
