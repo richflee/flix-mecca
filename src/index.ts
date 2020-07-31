@@ -4,7 +4,7 @@ import getMovies from "./api/movies";
 const app = express();
 
 app.get("/", function (req, res) {
-  res.send("🎉 Hello world! Welcome to my wonderful movies service 🎉");
+  res.send("🍿 Welcome to Flix Mecca 🍿");
 });
 
 app.get("/movies", function (req, res) {
