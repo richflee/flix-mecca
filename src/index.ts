@@ -12,5 +12,5 @@ app.get("/movies", function (req, res) {
 });
 
 app.listen(3000, function () {
-  console.log("NOW RUNNING ON localhost:3000 🎉");
+  console.log("Flix Mecca running on :3000 🍿");
 });
