@@ -6,7 +6,7 @@
   "private": false,
   "scripts": {
     "build": "webpack",
-    "start:dev": "NODE_ENV=development webpack",
+    "build:dev": "NODE_ENV=development webpack",
     "build:prod": "NODE_ENV=production webpack",
     "run:prod": "node build/index.js"
   },
